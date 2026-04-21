@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# if [ "$APPSETUP2_NONITERACTIVE" = "1" ] ; then
+#   exit 0
+# fi
+
+if [ -f "/usr/bin/plasmashell" ] ; then
+  ADDPCKS="$ADDPCKS libreoffice-plasma"
+fi
+if [ "$QDSKSSN" = "/usr/bin/gnome-shell" ] ; then
+  ADDPCKS="$ADDPCKS libreoffice-gnome"
+fi
+
+if [ -n "$ADDPCKS" ] ; then
+  ADDPCKS=$(echo "$ADDPCKS" | xargs) #remove leading and trailing whitespaces
+  sed -i -e "s@[[:space:]]*extra_packages=.*@extra_packages=$ADDPCKS@" config_1_rc
+fi
