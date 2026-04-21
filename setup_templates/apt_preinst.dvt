@@ -1,0 +1,27 @@
+#!/bin/sh
+set -e
+
+case "$1" in
+    install)
+      set +e
+      echo "Adopting \"ooenv\" file ..."
+      mkdir -p /usr/lib/libreoffice/program/
+      echo '\nFL1="/opt/program_files/q4os-libreoffice/bin/conf1_lo.sh" ; if [ -f "$FL1" ] ; then . $FL1 ; fi' >> /usr/lib/libreoffice/program/ooenv
+      set -e
+    ;;
+
+    upgrade)
+    ;;
+
+    abort-upgrade)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 0
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

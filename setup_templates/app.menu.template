@@ -1,0 +1,51 @@
+ <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+<!-- 	<Name></Name> -->
+
+<Menu>
+	<Name>Libre Office</Name>
+	<DefaultLayout show_empty="true">
+		<Merge type="menus"/>
+		<Merge type="files"/>
+	</DefaultLayout>
+	<Layout>
+<!-- 		<Merge type="menus" />	-->
+<!--		<Menuname show_empty="false">Documents</Menuname>
+		<Menuname show_empty="false">Settings</Menuname>	-->
+		<Filename>libreoffice-startcenter.desktop</Filename>
+		<Filename>libreoffice-writer.desktop</Filename>
+		<Filename>libreoffice-calc.desktop</Filename>
+		<Filename>libreoffice-impress.desktop</Filename>
+		<Filename>libreoffice-draw.desktop</Filename>
+		<Filename>libreoffice-base.desktop</Filename>
+<!--		<Filename>libreoffice-math.desktop</Filename>	-->
+		<Separator/>
+		<Filename>q4os-libreoffice_uninstall.desktop</Filename>
+	</Layout>
+<!--	<Menu>
+		<Name>Documents</Name>
+		<Directory>documents_q4os-libreoffice.directory</Directory>
+		<Include>
+			<Filename>q4os-libreoffice_doc01.desktop</Filename>
+			<Filename>q4os-libreoffice_doc02.desktop</Filename>
+		</Include>
+	</Menu>
+	<Menu>
+		<Name>Settings</Name>
+		<Directory>settings_q4os-libreoffice.directory</Directory>
+	</Menu>	-->
+	<Include>
+		<Filename>libreoffice-startcenter.desktop</Filename>
+		<Filename>libreoffice-writer.desktop</Filename>
+		<Filename>libreoffice-calc.desktop</Filename>
+		<Filename>libreoffice-impress.desktop</Filename>
+		<Filename>libreoffice-draw.desktop</Filename>
+		<Filename>libreoffice-base.desktop</Filename>
+<!--		<Filename>libreoffice-math.desktop</Filename>	-->
+		<Filename>q4os-libreoffice_uninstall.desktop</Filename>
+	</Include>
+</Menu>
+
+</Menu>

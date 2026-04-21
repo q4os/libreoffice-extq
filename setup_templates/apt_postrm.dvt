@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+if [ "$1" = "remove" ] ; then
+  set +e
+  echo "Removing \"ooenv\" file ..."
+  rm -f /usr/lib/libreoffice/program/ooenv
+  set -e
+fi
