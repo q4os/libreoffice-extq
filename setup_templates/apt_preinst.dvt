@@ -6,7 +6,7 @@ case "$1" in
       set +e
       echo "Adopting \"ooenv\" file ..."
       mkdir -p /usr/lib/libreoffice/program/
-      echo '\nFL1="/opt/program_files/q4os-libreoffice/bin/conf1_lo.sh" ; if [ -f "$FL1" ] ; then . $FL1 ; fi' >> /usr/lib/libreoffice/program/ooenv
+      echo '\nFL1="/opt/program_files/libreoffice-extq/bin/conf1_lo.sh" ; if [ -f "$FL1" ] ; then . $FL1 ; fi' >> /usr/lib/libreoffice/program/ooenv
       set -e
     ;;
 

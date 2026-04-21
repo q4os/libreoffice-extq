@@ -16,13 +16,13 @@ if [ "$QDSK_SESSION" = "trinity" ] ; then
     mkdir -p "$( dirname $CFG_FILE1 )"
     if [ "$( dash /usr/share/apps/q4os_system/bin/print_package_version.sh "libreoffice-style-colibre" )" != "0" ] ; then
       echo "[DBG:] Writing modifications registrymodifications.xcu.colibre ..." >> $LOGFL1
-      cp /opt/program_files/q4os-libreoffice/share/registrymodifications.xcu.colibre $CFG_FILE1
+      cp /opt/program_files/libreoffice-extq/share/registrymodifications.xcu.colibre $CFG_FILE1
     elif [ "$( dash /usr/share/apps/q4os_system/bin/print_package_version.sh "libreoffice-style-breeze" )" != "0" ] ; then
       echo "[DBG:] Writing modifications registrymodifications.xcu.breeze ..." >> $LOGFL1
-      cp /opt/program_files/q4os-libreoffice/share/registrymodifications.xcu.breeze $CFG_FILE1
+      cp /opt/program_files/libreoffice-extq/share/registrymodifications.xcu.breeze $CFG_FILE1
     elif [ "$( dash /usr/share/apps/q4os_system/bin/print_package_version.sh "libreoffice-style-galaxy" )" != "0" ] ; then
       echo "[DBG:] Writing modifications registrymodifications.xcu.galaxy ..." >> $LOGFL1
-      cp /opt/program_files/q4os-libreoffice/share/registrymodifications.xcu.galaxy $CFG_FILE1
+      cp /opt/program_files/libreoffice-extq/share/registrymodifications.xcu.galaxy $CFG_FILE1
     else
       echo "[DBG:] Modifications has not been written." >> $LOGFL1
     fi

@@ -22,19 +22,19 @@
 		<Filename>libreoffice-base.desktop</Filename>
 <!--		<Filename>libreoffice-math.desktop</Filename>	-->
 		<Separator/>
-		<Filename>q4os-libreoffice_uninstall.desktop</Filename>
+		<Filename>libreoffice-extq_uninstall.desktop</Filename>
 	</Layout>
 <!--	<Menu>
 		<Name>Documents</Name>
-		<Directory>documents_q4os-libreoffice.directory</Directory>
+		<Directory>documents_libreoffice-extq.directory</Directory>
 		<Include>
-			<Filename>q4os-libreoffice_doc01.desktop</Filename>
-			<Filename>q4os-libreoffice_doc02.desktop</Filename>
+			<Filename>libreoffice-extq_doc01.desktop</Filename>
+			<Filename>libreoffice-extq_doc02.desktop</Filename>
 		</Include>
 	</Menu>
 	<Menu>
 		<Name>Settings</Name>
-		<Directory>settings_q4os-libreoffice.directory</Directory>
+		<Directory>settings_libreoffice-extq.directory</Directory>
 	</Menu>	-->
 	<Include>
 		<Filename>libreoffice-startcenter.desktop</Filename>
@@ -44,7 +44,7 @@
 		<Filename>libreoffice-draw.desktop</Filename>
 		<Filename>libreoffice-base.desktop</Filename>
 <!--		<Filename>libreoffice-math.desktop</Filename>	-->
-		<Filename>q4os-libreoffice_uninstall.desktop</Filename>
+		<Filename>libreoffice-extq_uninstall.desktop</Filename>
 	</Include>
 </Menu>
 
