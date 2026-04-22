@@ -9,7 +9,7 @@ Package: libreoffice-extq
 Architecture: all
 Pre-Depends: libreoffice
 Depends: q4os-desktop (>= 4.0)
-Recommends: libsane, libpaper-utils, libreoffice-gtk3, libreoffice-gtk4, libreoffice-kf5, libreoffice-kf6, libreoffice-plasma, libreoffice-style-breeze, libreoffice-style-colibre, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-draw, libreoffice-math
+Recommends: libsane1, libpaper-utils, libreoffice-gtk3, libreoffice-gtk4, libreoffice-kf5, libreoffice-kf6, libreoffice-plasma, libreoffice-style-breeze, libreoffice-style-colibre, libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice-draw, libreoffice-math
 Conflicts: q4os-libreoffice
 Replaces:
 Breaks:
