@@ -1,5 +1,9 @@
 libreoffice-extq (1.1-a1) UNRELEASED; urgency=medium
 
   * Initial release
+  * Add desktop environments extensions dependencies
+  * Handle libreoffice-plasma and libreoffice-gnome as optional dependencies
+  * Optimize installer configuration
+  * Move to libsane1 dependency
 
- -- Q4OS Team <devteam@q4os.org>  Sun, 19 Apr 2026 19:48:52 +0200
+ -- Q4OS Team <devteam@q4os.org>  Wed, 22 Apr 2026 11:03:26 +0200
